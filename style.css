@@ -2666,6 +2666,7 @@ body.active .location-text p {
         width: 75%;
         justify-content: center;
         margin-bottom: 150px;
+        margin-top: 200px;
     }
     
     .reservation-container {
