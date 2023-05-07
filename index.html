@@ -160,8 +160,8 @@
         insta3 = document.getElementById('instagram-white');
         facebook3 = document.getElementById('facebook-white');
         phone3 = document.getElementById('phone-white');
-        insta2 = document.querySelector('.ri-instagram-fill');
-        facebook2 = document.querySelector('.ri-facebook-line')
+        insta2 = document.querySelector('.ri-instagram-line');
+        facebook2 = document.querySelector('.ri-facebook-fill')
         phone2 = document.querySelector('.ri-phone-line')
         insta = document.querySelector('.ri-instagram-fill');
         facebook = document.querySelector('.ri-facebook-circle-fill');
@@ -186,11 +186,11 @@
         locationsection = document.getElementById('Location');
         buttonDark.onclick = function(){
             body.classList.toggle('active');
-    }
+        }
         buttonWhite = document.querySelector('.button-container-white');
         buttonWhite.onclick = function(){
             body.classList.toggle('active');
-    }
+        }
         homebutton.onclick = function (){
             homesection.scrollIntoView({behaviour: 'smooth'});
         }
@@ -223,37 +223,36 @@
         }
         insta.onclick = function() {
             window.open("https://www.instagram.com/burgertimefk/?hl=en", "_blank");
-}
+        }
          insta2.onclick = function() {
             window.open("https://www.instagram.com/burgertimefk/?hl=en", "_blank");
-}
+        }
          facebook.onclick = function() {
             window.open("https://www.facebook.com/people/Burger-Time/100063519128701/", "_blank");
-}
+        }
          facebook2.onclick = function() {
             window.open("https://www.facebook.com/people/Burger-Time/100063519128701/", "_blank");
-}
+        }
          phone.onclick = function() {
             window.open('tel:043 777 442');
-}        
+        }        
          phone2.onclick = function() {
             window.open('tel:043 777 442');
-} 
+        } 
 
          insta3.onclick = function() {
             window.open("https://www.instagram.com/burgertimefk/?hl=en", "_blank");
-}
+        }
          phone3.onclick = function(){
             window.open('tel:043 777 442');
-         }
+        }
 
          facebook3.onclick = function() {
             window.open("https://www.facebook.com/people/Burger-Time/100063519128701/", "_blank");
-}
+        }
          perberesitButton.onclick = function() {
-            alert('Këto janë përbërësit tanë: 1.Mish Viçi, 2.Mish Pule, 3.Pomfritë')
-         }
-
+            alert('Këto janë përbërësit tanë: 1.Mish Viçi, 2.Mish Pule, 3.Pomfritë');
+        }
          function updateNavbarStyles() {
   NavBarDark = document.querySelector('.navbar-container-dark');
   NavBarWhite = document.querySelector('.navbar-container-white');
@@ -279,9 +278,8 @@
   }
 }
 
-
-
 window.addEventListener('scroll', updateNavbarStyles);
+
 
      menuButtonLeft = document.querySelector('.ri-arrow-left-line');
      menuButtonRight = document.querySelector('.ri-arrow-right-line');
